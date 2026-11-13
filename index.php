@@ -12,6 +12,7 @@ require_once 'Assets/config/db.php';
     <title>Kläduthyrning</title>
 </head>
 <body>
+    
 
 <h1>Kläduthyrning</h1>   
     
