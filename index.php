@@ -16,8 +16,7 @@ require_once 'Assets/config/db.php';
     
 <main>
     <section class="hero"
-    <h1>Startsida</h1>
-    <h2>Välkommen till Sveriges största kläduthyrning</h2>
+    <h1>Välkommen till Sveriges största kläduthyrning</h1>
 
     <div class="kläder-preview">
         <p> </p>
