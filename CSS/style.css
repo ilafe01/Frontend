@@ -1,0 +1,81 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #EFB99F;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 3rem;
+    text-align: center;
+}
+
+.hero {
+    background: white;
+    padding: 2rem; 
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+    
+.hero h1 {
+margin-bottom: 1rem;
+}
+
+.kläder-preview {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.plagg-kort {
+    background: #eaeaea;
+    padding: 1rem;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.logo{
+    height: 67px;
+    width: auto;
+    border-radius: 70%;
+}
