@@ -8,6 +8,9 @@
 body {
     background-color: #EFB99F;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -19,63 +22,162 @@ header {
     align-items: center;
 }
 
+.logo{
+    height: 55px;
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
 header nav a {
     color: white;
     text-decoration: none;
     margin-left: 1.5rem;
+    font-weight: 500;
 }
 
 header nav a:hover {
     text-decoration: underline;
+    color: #EFB99F;
 }
 
 main {
-    padding: 3rem;
-    text-align: center;
+    padding: 2rem 1rem;
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .hero {
     background: white;
-    padding: 2rem; 
-    border-radius: 8px;
-    max-width: 700px;
-    margin: 0 auto;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 3rem 2rem; 
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
     
 .hero h1 {
-margin-bottom: 1rem;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #222;
 }
 
-.kläder-preview {
+.hero p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;   
+}
+
+.kategorier-sektion {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.kategorier-sektion h2 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+}
+
+.sektion-subtitle {
+    color: #444;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.kategorier-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.kategori-kort {
+    background: #ffffff;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin: 2rem 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #eaeaea;
 }
 
-.plagg-kort {
-    background: #eaeaea;
-    padding: 1rem;
-    border-radius: 5px;
-    flex: 1;
+.kategori-kort:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-.btn {
+.kategori-kort h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.kategori-desc {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+    min-height: 2.5rem;
+}
+
+.plagg.lista {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 0.8rem 0;
+}
+
+.plagg.lista li {
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0.3rem 0;
+}
+
+.btn-primary {
     display: inline-block;
     background: #007bff;
     color: white;
-    padding: 0.5rem 1.5rem;
+    padding: 0.75rem 2rem;
     border-radius: 4px;
     text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
 }
 
-.btn:hover {
+.btn-primary:hover {
     background: #0056b3;
 }
 
-.logo{
-    height: 67px;
-    width: auto;
-    border-radius: 70%;
+.btn-card {
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: auto;
+    transition: background 0.2s;
+}
+
+.btn-card:hover {
+    background: #007bff;;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 0.9rem;
 }
