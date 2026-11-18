@@ -18,7 +18,6 @@ require_once 'Assets/config/db.php';
     </a>
     </div>
     <nav>
-        <a href="index.php"><img src="Assets/Gemini_Generated_Image_spo66wspo66wspo6.jpeg" alt="Logo" class="logo"></a>
         <a href="index.php">Hem</a>
         <a href="minabokningar.php">Mina bokningar</a>
         <a href="boka.php">Boka</a>
@@ -29,7 +28,7 @@ require_once 'Assets/config/db.php';
 
 <main>
     <section class="hero">
-    <h1>Hyr din stil till nästa event/h1>
+    <h1>Hyr din stil till nästa event</h1>
     <p>Sveriges smidigaste platform för uthyrning av festkläder, kostymer och vardagsmode direkt online.</p>
     <a href="Filer/boka.php" class="btn-primary">Utforska hela utbudet</a>
 </section>

@@ -126,7 +126,7 @@ main {
     min-height: 2.5rem;
 }
 
-.plagg.lista {
+.plagg-lista {
     list-style: none;
     padding: 0;
     margin-bottom: 1.5rem;
@@ -136,7 +136,7 @@ main {
     padding: 0.8rem 0;
 }
 
-.plagg.lista li {
+.plagg-lista li {
     font-size: 0.9rem;
     color: #555;
     padding: 0.3rem 0;
