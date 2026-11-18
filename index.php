@@ -82,7 +82,7 @@ require_once 'Assets/config/db.php';
        <h3>Skor & Accessoarer</h3>
        <p class="kategori-desc">Detaljerna som fulländar din outfit.</p>
        <ul class="plagg-lista">
-          <li>> Kostymskor & Finskor</li>
+          <li> Kostymskor & Finskor</li>
           <li> Sneakers</li>
           <li> Slipsar & Flugor</li>
           <li> Växor & Klockor</li>              
