@@ -16,18 +16,23 @@ body {
 header {
     background: #222;
     color: white;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo{
-    height: 55px;
+    height:90px;
     width: auto;
     border-radius: 50%;
     object-fit: cover;
     display: block;
+}
+
+header nav {
+    display: flex;
+    align-items: center; 
 }
 
 header nav a {

@@ -14,7 +14,7 @@ require_once 'Assets/config/db.php';
  <header>
     <div class="logo-container">
     <a href="index.php">
-      <img src="Assets/Gemini_Generated_Image_spo66wspo66wspo6.jpeg" alt="Logotyp" class="logo">
+      <img src="Bilder/Logo.png" alt="Logotyp" class="logo">
     </a>
     </div>
     <nav>
