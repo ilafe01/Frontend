@@ -1,4 +1,9 @@
 Nov 13 2026
 
-skapa en css
+Skapa en css
 
+Nov 20
+
+Skapa en ordentlig registreringssida med databasen så nya användare kan skapa konton,
+fixa så att lösenord kan hashas och att göra så sessionerna funkar säkert och även gå
+genom designen på startsidan med headern och kategorierna
