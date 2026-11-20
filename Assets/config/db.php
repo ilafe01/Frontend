@@ -1,6 +1,4 @@
 <?php
-require_once __DIR__ . '/config/db.php';
-
 function addUser(array $felt): bool
 {
     global $forum;

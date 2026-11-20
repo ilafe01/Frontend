@@ -28,6 +28,7 @@ header {
     border-radius: 50%;
     object-fit: cover;
     display: block;
+    background-color: white;
 }
 
 header nav {
