@@ -1,5 +1,4 @@
 <?php
-function addUser(array $felt): bool
 {
     global $forum;
 
